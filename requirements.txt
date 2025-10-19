@@ -1,2 +1,6 @@
 fastapi
 uvicorn
+
+# Persistence
+SQLAlchemy==1.4.49
+alembic==1.11.0
