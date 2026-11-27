@@ -6,6 +6,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 - View all available extracurricular activities
 - Sign up for activities
+- Join the GitHub Skills program for practical coding and collaboration experience
 
 ## Getting Started
 
@@ -40,7 +41,7 @@ The application uses a simple data model with meaningful identifiers:
 
    - Description
    - Schedule
-   - Maximum number of participants allowed
+   - Maximum number of participants allowed (or `null` for open registration)
    - List of student emails who are signed up
 
 2. **Students** - Uses email as identifier:
